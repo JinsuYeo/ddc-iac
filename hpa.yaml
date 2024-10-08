@@ -6,7 +6,7 @@ metadata:
   namespace: backend
 spec:
   minReplicas: 1
-  maxReplicas: 2
+  maxReplicas: 1
   scaleTargetRef:
     apiVersion: argoproj.io/v1alpha1
     kind: Rollout
