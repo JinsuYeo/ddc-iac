@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: jsyeo97/ddc:a45b82e625b49b282ee13d04e944e0354a2ef129
+          image: jsyeo97/ddc:8a2c37b99af206435ed7424d210361bbed3ebc73
           ports:
             - containerPort: 80
           resources:
